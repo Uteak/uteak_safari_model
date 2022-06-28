@@ -1,0 +1,125 @@
+{
+    "BlackAgent": {
+        "checkpoints": [
+            {
+                "steps": 1999999,
+                "file_path": "results/Son_test_1/BlackAgent/BlackAgent-1999999.onnx",
+                "reward": 0.9511002056256727,
+                "creation_time": 1651260784.6901116,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/BlackAgent/BlackAgent-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2999997,
+                "file_path": "results/Son_test_1/BlackAgent/BlackAgent-2999997.onnx",
+                "reward": 0.8791354251619323,
+                "creation_time": 1651268426.964322,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/BlackAgent/BlackAgent-2999997.pt"
+                ]
+            },
+            {
+                "steps": 3999998,
+                "file_path": "results/Son_test_1/BlackAgent/BlackAgent-3999998.onnx",
+                "reward": 0.6647690593783354,
+                "creation_time": 1651275172.9945536,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/BlackAgent/BlackAgent-3999998.pt"
+                ]
+            },
+            {
+                "steps": 4999981,
+                "file_path": "results/Son_test_1/BlackAgent/BlackAgent-4999981.onnx",
+                "reward": 0.5085312136963233,
+                "creation_time": 1651281215.1375117,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/BlackAgent/BlackAgent-4999981.pt"
+                ]
+            },
+            {
+                "steps": 5600678,
+                "file_path": "results/Son_test_1/BlackAgent/BlackAgent-5600678.onnx",
+                "reward": 0.4966149646237135,
+                "creation_time": 1651285284.989654,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/BlackAgent/BlackAgent-5600678.pt"
+                ]
+            }
+        ],
+        "elo": 9893.864632448454,
+        "final_checkpoint": {
+            "steps": 5600678,
+            "file_path": "results/Son_test_1/BlackAgent.onnx",
+            "reward": 0.4966149646237135,
+            "creation_time": 1651285284.989654,
+            "auxillary_file_paths": [
+                "results/Son_test_1/BlackAgent/BlackAgent-5600678.pt"
+            ]
+        }
+    },
+    "WhiteAgent": {
+        "checkpoints": [
+            {
+                "steps": 1999997,
+                "file_path": "results/Son_test_1/WhiteAgent/WhiteAgent-1999997.onnx",
+                "reward": 0.8221532110896694,
+                "creation_time": 1651261155.9176679,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/WhiteAgent/WhiteAgent-1999997.pt"
+                ]
+            },
+            {
+                "steps": 2999997,
+                "file_path": "results/Son_test_1/WhiteAgent/WhiteAgent-2999997.onnx",
+                "reward": 0.6786647024733135,
+                "creation_time": 1651268785.0144026,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/WhiteAgent/WhiteAgent-2999997.pt"
+                ]
+            },
+            {
+                "steps": 3999992,
+                "file_path": "results/Son_test_1/WhiteAgent/WhiteAgent-3999992.onnx",
+                "reward": 0.9418523371385664,
+                "creation_time": 1651275484.6713252,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/WhiteAgent/WhiteAgent-3999992.pt"
+                ]
+            },
+            {
+                "steps": 4999993,
+                "file_path": "results/Son_test_1/WhiteAgent/WhiteAgent-4999993.onnx",
+                "reward": 0.7860416794816653,
+                "creation_time": 1651281538.7588902,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/WhiteAgent/WhiteAgent-4999993.pt"
+                ]
+            },
+            {
+                "steps": 5533213,
+                "file_path": "results/Son_test_1/WhiteAgent/WhiteAgent-5533213.onnx",
+                "reward": 0.9383766225406102,
+                "creation_time": 1651285285.1418493,
+                "auxillary_file_paths": [
+                    "results/Son_test_1/WhiteAgent/WhiteAgent-5533213.pt"
+                ]
+            }
+        ],
+        "elo": 10105.486850734012,
+        "final_checkpoint": {
+            "steps": 5533213,
+            "file_path": "results/Son_test_1/WhiteAgent.onnx",
+            "reward": 0.9383766225406102,
+            "creation_time": 1651285285.1418493,
+            "auxillary_file_paths": [
+                "results/Son_test_1/WhiteAgent/WhiteAgent-5533213.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.2+cu102"
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "WhiteAgent": {
+        "checkpoints": [
+            {
+                "steps": 999994,
+                "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-999994.onnx",
+                "reward": 0.5368849538596331,
+                "creation_time": 1651225965.741909,
+                "auxillary_file_paths": [
+                    "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-999994.pt"
+                ]
+            },
+            {
+                "steps": 1999998,
+                "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-1999998.onnx",
+                "reward": 0.6067168451551895,
+                "creation_time": 1651232320.7498128,
+                "auxillary_file_paths": [
+                    "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-1999998.pt"
+                ]
+            },
+            {
+                "steps": 2000208,
+                "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-2000208.onnx",
+                "reward": 0.6081311698945184,
+                "creation_time": 1651232642.9921496,
+                "auxillary_file_paths": [
+                    "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-2000208.pt"
+                ]
+            }
+        ],
+        "elo": 3421.502531923304,
+        "final_checkpoint": {
+            "steps": 2000208,
+            "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent.onnx",
+            "reward": 0.6081311698945184,
+            "creation_time": 1651232642.9921496,
+            "auxillary_file_paths": [
+                "results/safari_NOLSTM_ver1_Linear_1st_try/WhiteAgent/WhiteAgent-2000208.pt"
+            ]
+        }
+    },
+    "BlackAgent": {
+        "checkpoints": [
+            {
+                "steps": 999998,
+                "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-999998.onnx",
+                "reward": -0.1237979839663183,
+                "creation_time": 1651226261.4380531,
+                "auxillary_file_paths": [
+                    "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-999998.pt"
+                ]
+            },
+            {
+                "steps": 1999999,
+                "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-1999999.onnx",
+                "reward": 0.2635815856521001,
+                "creation_time": 1651232642.8508358,
+                "auxillary_file_paths": [
+                    "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2000043,
+                "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-2000043.onnx",
+                "reward": 0.2616231331184729,
+                "creation_time": 1651232643.096549,
+                "auxillary_file_paths": [
+                    "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-2000043.pt"
+                ]
+            }
+        ],
+        "elo": 3462.5337955793134,
+        "final_checkpoint": {
+            "steps": 2000043,
+            "file_path": "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent.onnx",
+            "reward": 0.2616231331184729,
+            "creation_time": 1651232643.096549,
+            "auxillary_file_paths": [
+                "results/safari_NOLSTM_ver1_Linear_1st_try/BlackAgent/BlackAgent-2000043.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.8.2+cu102"
+    }
+}
